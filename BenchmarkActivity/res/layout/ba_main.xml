@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+>
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1.0"
+	>
+		<ListView
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:id="@+id/ba_test_results"
+		/>
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:background="#8000"
+		    android:visibility="gone"
+		    android:id="@+id/ba_test_result_overlay"
+		/>
+	</RelativeLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ba_run_tests"
+        android:id="@+id/ba_test_control_button"
+	/>
+
+</LinearLayout>

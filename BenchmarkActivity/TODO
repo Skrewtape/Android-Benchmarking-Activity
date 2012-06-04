@@ -1,0 +1,4 @@
+* Keep index number in test instance -- keep tests in hashset and get rid of the array / indices thing
+* Investigate running tests in multiple threads.
+* Investigate throwing up top / bottm N measurements
+* Display graphs of run time vs. run number, per test -- help people find slowdown

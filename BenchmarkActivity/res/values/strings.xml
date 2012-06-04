@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ba_run_tests">Run Tests</string>
+    <string name="ba_cancel_run">Cancel Test Run</string>
+    <string name="ba_item_stats_fmt">Min: %1$s Max: %2$s Mean: %3$s</string>
+    
+    <string name="ba_time_ns_fmt">%dns</string>
+    <string name="ba_time_ms_fmt">%.2fms</string>
+    <string name="ba_time_sec_fmt">%.2fsec</string>
+
+</resources>
